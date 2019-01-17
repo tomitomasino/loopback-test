@@ -1,0 +1,8 @@
+path: .
+memory: 256M
+instances: 1
+name: loopback-test
+host: loopback-test
+disk_quota: 1G
+env:
+  NODE_ENV: bluemix

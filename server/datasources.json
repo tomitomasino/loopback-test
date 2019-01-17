@@ -1,10 +1,6 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "mongo": {
-    "host": "192.168.233.187",
+    "host": "192.168.233.189",
     "port": 27017,
     "url": "",
     "database": "testdb",
