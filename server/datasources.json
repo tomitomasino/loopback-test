@@ -1,12 +1,23 @@
 {
-  "mongo": {
-    "host": "192.168.233.189",
+  "testdb": {
+    "host": "192.168.233.192",
     "port": 27017,
     "url": "",
     "database": "testdb",
     "password": "passw0rd",
-    "name": "mongo",
-    "user": "test",
+    "name": "testdb",
+    "user": "mongo",
+    "connector": "mongodb",
+    "useNewUrlParser": "true"
+  },
+  "reporting": {
+    "host": "192.168.233.192",
+    "port": 27017,
+    "url": "",
+    "database": "reporting",
+    "password": "passw0rd",
+    "name": "reporting",
+    "user": "mongo",
     "connector": "mongodb",
     "useNewUrlParser": "true"
   }

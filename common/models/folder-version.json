@@ -1,20 +1,21 @@
 {
-  "name": "Folder",
-  "plural": "folders",
+  "name": "FolderVersion",
+  "plural": "foldersversions",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "mixins": {
-    "Reporting": {
-      "versionModelName": "FolderVersion"
-    }
-  },
   "properties": {
     "name": {
       "type": "string"
-    }
+    },
+    "versionTimestamp": {
+      "type": "date"
+    },
+    "operDBId": {
+      "type": "string"
+    }    
   },
   "validations": [],
   "relations": {

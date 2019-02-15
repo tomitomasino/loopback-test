@@ -14,37 +14,40 @@
     ]
   },
   "User": {
-    "dataSource": "mongo"
+    "dataSource": "testdb"
   },
   "AccessToken": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
     "public": false
   },
   "Note": {
-    "dataSource": "mongo"
+    "dataSource": "testdb"
   },
   "Folder": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
     "public": true
   },
   "testmodel": {
-    "dataSource": "mongo",
+    "dataSource": "testdb",
+    "public": true
+  },
+  "FolderVersion": {
+    "dataSource": "reporting",
     "public": true
   }
-  
 }
